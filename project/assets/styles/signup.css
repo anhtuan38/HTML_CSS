@@ -1,0 +1,52 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #fff;
+}
+p {
+  font-size: 13px;
+  font-weight: 400;
+}
+.container {
+  width: 375px;
+  background-color: #21252B;
+  color: #9CA5B4;
+}
+.container figure {
+  width: 30px;
+  height: 30px;
+}
+.container figure img {
+  width: 100%;
+}
+.container header {
+  padding: 80px 0px 40px 0px;
+}
+
+.container .form-control {
+  background-color: #21252B;
+  color: #fff;
+}
+.container .form-label, .form-check-label {
+  font-size: 13px;
+  font-weight: 400;
+}
+.container .btnsubmit {
+  background-color: #03A87C;
+  color: #fff;
+}
+.container .btnsubmit:hover {
+  background-color: #76dabf;
+  color: #fff;
+}
+.container .btnsignupwithgoogle {
+  background-color: #181A1F;
+  color: #fff;
+}
+.container .btnsignupwithgoogle:hover {
+  background-color: #282b31;
+  color: #fff;
+}

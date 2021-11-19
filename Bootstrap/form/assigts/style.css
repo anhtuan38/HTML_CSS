@@ -1,0 +1,11 @@
+.container {
+  border: 1px solid #000;
+}
+img {
+  min-width:16px;
+  min-height:16px;
+  box-sizing:unset;
+  box-shadow:none;
+  background:unset;
+  padding:0 6px 0 0;
+}

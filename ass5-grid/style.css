@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 600px;
+  margin: 10px;
+}
+header {
+  flex: 100%;
+  height: 100px;
+  background-color: #808080;
+}
+nav {
+  flex: 20%;
+  height: 400px;
+  background-color: #7fffd4;
+}
+.main-content {
+  flex: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-1 {
+  flex: 100%;
+  background-color: blue;
+}
+.section-2 {
+  flex: 50%;
+  background-color: coral;
+}
+.section-3 {
+  flex: 50%;
+  background-color: cornflowerblue;
+}
+footer {
+  flex: 100%;
+  height: 100px;
+  background-color: #808080;
+}

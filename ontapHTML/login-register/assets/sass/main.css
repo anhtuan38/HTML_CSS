@@ -1,0 +1,20 @@
+body {
+  background-color: #F2F2F2;
+  font-family: "Poppins", sans-serif;
+}
+body .container {
+  padding: 0px;
+  background-color: #fff;
+  width: 375px;
+  overflow: hidden;
+}
+body .container figure {
+  width: 249px;
+  height: auto;
+}
+body .container .boxtab {
+  width: 312px;
+  height: 272px;
+}
+
+/*# sourceMappingURL=main.css.map */

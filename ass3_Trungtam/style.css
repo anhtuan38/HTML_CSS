@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(241, 226, 226);
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    position: relative;
+}
+img {
+    width: 500px;
+}
+.container ul li {
+    list-style-type: square;
+}
+table {
+    width: 100%;
+}
+table td {
+    text-align: center;
+}
+.timetable,th,td {
+    border: 1px solid black;
+}
+.title-timetable {
+    font-family: 'Abril Fatface', cursive;
+    background-color: red;
+    font-size: 25px;
+}
+.link {
+    font-size: 25px;
+}
+.link a {
+    text-decoration-style: double;
+}
+.link a:hover {
+    color: rgb(106, 224, 106);
+}
+.link a:active {
+    color: #660099;
+}
+.contact-link i {
+    padding: 0.5rem;
+ }
+.contact-link a {
+     font-size: 25px;
+     color: blue;
+     display: inline-block;
+     text-decoration: none;
+     padding: 10px 20px;
+     transition: all 0.3s;
+ }
+.contact-link a:hover {
+      transform: translateY(0.5rem);
+ }
+ 
+.contact-link btnicon {
+     font-size: 30px;
+     transition: trans;
+ }
+input[type=text] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+.help {
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+}
+.help i{
+    font-size: 50px;
+}
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}

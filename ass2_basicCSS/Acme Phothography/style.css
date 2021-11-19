@@ -1,0 +1,116 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: auto;
+    background-color: #EEEEEE;
+}
+.heading{
+    background-color: white;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100%;
+    box-shadow: 10px 10px 50px gray;
+}
+.heading_left{
+    flex: 0 1 40vw;
+}
+.heading_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.heading h1{
+    width: 260px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.heading h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #888;
+}
+.heading_text p{
+    display: block;
+    padding: 1rem 3rem;
+}
+.heading a{
+    margin-top: 32px;
+    color: #333333;
+    padding: 1rem 2rem;
+    border: 1px #ccc solid;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.heading a:hover{
+    background-color: #EEEEEE
+}
+.heading_img{
+    background-image: url(https://source.unsplash.com/De8wMYoSSBc);
+    height: 100vh;
+    background-size: cover;
+    flex: 0 1 60vw;
+}
+.image_work{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.our_work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+.our_work h2{
+    width: fit-content;
+    padding: 0 24px;
+    margin: 24px 0;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: white;
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+}
+.image_work{
+    box-shadow: 10px 10px 50px gray;
+}
+.image_work img{
+    max-width: 900px;
+    background-size: cover;
+}
+.content_photo{
+    text-align: center;
+    padding: 0.8rem;
+}
+.image_work h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.17rem;
+    font-weight: bold;
+}
+.image_work p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333333;
+}
+footer h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+footer p{
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}

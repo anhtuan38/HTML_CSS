@@ -1,0 +1,33 @@
+.container {
+  width: 1140px;
+}
+h1 {
+  color: orange;
+}
+h5 {
+  font-size: 15px;
+  color: gray;
+}
+.container nav {
+  background-color: #E3E9E6;
+}
+.container .navmenu {
+  background-color: rgb(187, 181, 181);
+}
+.container .nav .active {
+  background-image: linear-gradient(#1E819E, #fff);
+}
+.inputform {
+  width: 800px;
+  padding-left: 60px;
+  margin: 50px;
+}
+footer {
+  height: 100px;
+  padding-top: 20px;
+  padding-left: 50px;
+  background-image: linear-gradient(#57adbe, #1E819E);
+}
+footer p {
+  color: rgb(206, 203, 203);
+}

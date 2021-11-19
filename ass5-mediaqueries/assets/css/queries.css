@@ -1,0 +1,129 @@
+/* Big tablet to 1200px; */
+@media only screen  and (max-width:1200px) {
+  .event-detail {
+    padding-right: 20px;
+  }
+  .content h4{
+    padding: 5px 0px;
+  }
+}
+ 
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width:1023px) {
+  .event-detail {
+    padding-right: 10px;
+  }
+}
+ 
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px) {
+  header {
+    font-size: 75%;
+    height: 65px;
+    border: none;
+  }
+  header figure{
+    clear: both;
+    margin: 0 auto;
+    height: 70px;
+    width: 70px;
+  } 
+  header .content {
+    text-align: center;
+  }
+  h2 {
+    font-size: 100%;
+    padding-top: 20px;
+    border-top: 1px solid orange;
+  }
+  h3 {
+    font-size: 100%;
+  }
+  h4 {
+    font-size: 100%;
+  }
+  p {
+    font-size: 90%;
+  }
+  ul > li {
+    font-size: 95%;
+  }
+  li > strong {
+    display: block;
+  }
+  main {
+    clear: left;
+    width: 100%;
+    border-right: none;
+    
+  }
+  main .event-detail {
+    margin: 15px;
+    border-right: none;
+    padding-right: 0px;
+  }
+  aside {
+    clear: left;
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+    border-top: none;
+  }
+  aside h3 {
+    padding-top: 15px;
+    border-top: 1px solid orange;
+  }
+  footer {
+    padding: 10px 0px;
+    border-top: 1px solid orange;
+    clear: left;
+  }
+  footer p {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+ 
+/* Small phones from 0 to 480px; */
+@media only screen and (max-width: 480px) {
+  header {
+    font-size: 10px;
+  }
+  header figure {
+    height: 100%;
+    width: 50px;
+    margin-right: 0px;
+  }
+  header img {
+  }
+  header .content {
+    display: block;
+    padding-bottom: 10px;
+  }
+  main {
+    clear: left;
+    width: 100%;
+    border-right: none; 
+  }
+  main .event-detail {
+    margin: 15px;
+    border-right: none;
+    padding-right: 0px;
+  }
+  aside {
+    clear: left;
+    width: 100%;
+    padding: 10px;
+  }
+  aside h3 {
+    padding-top: 10px;
+  }
+  footer {
+    padding: 10px 0px;
+    border-top: 1px solid orange;
+    clear: left;
+  }
+  footer p {
+    font-size: 10px;
+    text-align: center;
+  }
+}

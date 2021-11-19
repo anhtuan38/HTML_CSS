@@ -1,0 +1,47 @@
+$font-stack : 'Poppins', sans-serif;
+$primary-color : #6F2C8D;
+body {
+  background-color: #F2F2F2;
+  font-family: $font-stack;
+  .container {
+    padding: 0px;
+    background-color: #fff;
+    width: 360px;
+    overflow: hidden;
+  
+    .boxtab {
+      box-shadow: 0px 3px 5px rgba(111, 44, 141, 0.217221);
+
+        .nav-item .active{
+          background-color: #fff;
+          border-radius: 0px;
+          border: none;
+          border-bottom: 4px solid $primary-color;
+          color: $primary-color;
+        }
+        a {
+          font-weight: bold;
+          color: $primary-color;
+        }
+    }
+    .tab-content {
+
+      .boxinput {
+        width: 253px;
+        margin: 0 auto;
+
+        .input-group {
+          border: none;
+          border-bottom: 1px solid #6F2C8D;
+        }
+      }
+      .btn {
+        border-radius: 0px;
+        color: #fff;
+        font-weight: bold;
+        background-color: $primary-color;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,153 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    
+}
+.container .left{
+    background-color: #0D0F12;
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex: 0 1 40vw;
+    position: relative;
+}
+.signin{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom:12px
+}
+.signin img{
+    display: block;
+    width: 100%;
+    padding: 24px;
+}
+.signin .signinform{
+    display: flex;
+    flex-direction: column;
+}
+.signin .signinform label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.signin .signinform .username{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+.signin .signinform .password{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.signin .signinform input{
+    background-color: #0d0f12;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #40454d;
+    height: 40px;
+    width: 100%;
+    padding: 0px 20px;
+}
+.signin .signinform button{
+    font-size: 16px;
+    color: white;
+    background-color: #057cb3;;
+    padding: 10px 16px;
+    margin: 25px 0px;
+    border-radius: 4px;
+    border: 0px;    
+}
+.signin .signinform button:hover{
+    background-color: #006395;
+}
+.signin .link .forgotpass:hover{
+    text-decoration: underline;
+}
+.signin .link .Signinwithcompanyorschool:hover{
+    text-decoration: underline;
+}
+.signin a{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+    text-decoration: none;
+    color: #2ea0d6;
+}
+.signin .create_account{
+    border-top: 1px solid #40454d;
+}
+.signin .create_account a{
+    padding: 10px 16px;
+    border-radius: 3px;
+    color: white;
+    background-color: #333840;
+}
+.signin .create_account a:hover{
+    background-color: #40454d;
+}
+.left .help{
+    left: 10px;
+    bottom: 10px;
+    position: absolute;
+}
+.left .help i{
+    font-size: 30px;
+}
+footer{
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    max-width: 325px;
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+    color: #ffffffb3;
+}
+footer a{
+    color: #ffffffb3;
+}
+footer a:hover{
+    color: #0A4FAB;
+}
+
+.right{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(./images/login-bg.jpg);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.right .marketing-banner-text{
+    font-size: 48px;
+    font-weight: 200;
+    margin-bottom: 48px;
+}
+.right a{
+    padding: 10px 16px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #ffffff4d;
+    border-radius: 3px;
+}
